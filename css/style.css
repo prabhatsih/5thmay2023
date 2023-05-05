@@ -1,0 +1,22 @@
+@font-face {
+    font-family: anilFont;
+    src: url(../fonts/kaushan.otf) format("opentype");
+}
+@font-face {
+    font-family: prabhatFont;
+    src: url(../fonts/alex.ttf) format("truetype");
+}
+article{
+    border-bottom: 1px solid black;
+}
+h1.n1{
+    color:red;
+    font-family: 'prabhatFont',Arial, Helvetica, sans-serif;
+}
+h1.n2{
+    color:green;
+    font-family: 'anilFont','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1.n3{
+    color:blue;
+}
